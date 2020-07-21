@@ -10,4 +10,4 @@ before_install:
   - tar xf pandoc-crossref.tar.xz
   - export PATH=$PWD:$PATH
   - ls
-  
+  - tlmgr install unicode-math
