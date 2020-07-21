@@ -1,14 +1,4 @@
 ---
-codeBlockCaptions: True
-figureTitle: |
-  Figure #
-lofTitle: |
-  ## List of Figures
-lotTitle: |
-  ## List of Tables
-tableTemplate: |
-  *$$tableTitle$$ $$i$$*$$titleDelim$$ $$t$$
-autoSectionLabels: True
 title: pandoc-crossref demo document
 ---
 
