@@ -1,8 +1,42 @@
 ---
-title: Foo
-author: Bar
+codeBlockCaptions: True
+figureTitle: |
+  Figure #
+lofTitle: |
+  ## List of Figures
+lotTitle: |
+  ## List of Tables
+tableTemplate: |
+  *$$tableTitle$$ $$i$$*$$titleDelim$$ $$t$$
+autoSectionLabels: True
+title: pandoc-crossref demo document
 ---
 
-# Introduction
+display equations (see @eq:eqn1), 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+tables (see [@tbl:table1]), and 
+
+sections ([@sec:sec1; @sec:sec2])
+
+
+
+
+# Chapter 2 {#sec:sec1}
+
+Display equations are labelled and numbered
+
+$$ P_i(x) = \sum_i a_i x^i $$ {#eq:eqn1}
+
+Since 0.1.6.0 those can also appear in the middle of paragraph
+$$a x^2 + b x^2 + c = 0$${#eq:quadr} like this.
+
+# Chapter 3. Tables
+
+| First Header | Second Header |
+|:-------------|:--------------|
+| Content Cell | Content Cell  |
+| Content Cell | Content Cell  |
+
+: Table example {#tbl:table1}
+
+
