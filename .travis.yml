@@ -12,3 +12,4 @@ before_install:
 #  - ls
   - tlmgr install unicode-math
   - tlmgr install luaotfload
+  - luaotfload-tool --update
