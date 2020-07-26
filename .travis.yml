@@ -11,3 +11,4 @@ before_install:
 #  - export PATH=$PWD:$PATH
 #  - ls
   - tlmgr install unicode-math
+  - tlmgr install luaotfload
