@@ -5,6 +5,7 @@ script: make ms
 
 apt_packages:
   - texlive-luatex
+  - fonts-lmodern
 
 before_install:
 #  - echo $PWD
