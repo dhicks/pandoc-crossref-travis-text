@@ -3,6 +3,9 @@ pandoc_version: 2.10
 
 script: make ms
 
+apt_packages:
+  - texlive-luatex
+
 before_install:
 #  - echo $PWD
 #  - echo $HOME
@@ -10,7 +13,6 @@ before_install:
 #  - tar xf pandoc-crossref.tar.xz
 #  - export PATH=$PWD:$PATH
 #  - ls
-  - apt-get install texlive-luatex
   - tlmgr install unicode-math
   - tlmgr install luaotfload
   ## Raises the error "/home/travis/texlive/bin/x86_64-linux/luaotfload-tool:74: unexpected symbol near '/'"
