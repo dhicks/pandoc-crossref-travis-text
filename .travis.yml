@@ -6,7 +6,6 @@ script: make ms
 addons:
   apt:
     packages:
-      - libxml2-dev
       - texlive-luatex
       - fonts-lmodern
 
