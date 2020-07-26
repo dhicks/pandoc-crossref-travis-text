@@ -16,6 +16,6 @@ before_install:
 #  - ls
   - tlmgr install unicode-math
   - tlmgr install luaotfload
-  ## Raises the error "/home/travis/texlive/bin/x86_64-linux/luaotfload-tool:74: unexpected symbol near '/'"
  - luaotfload-tool --update
+  ## Raises the error "/home/travis/texlive/bin/x86_64-linux/luaotfload-tool:74: unexpected symbol near '/'"
 
